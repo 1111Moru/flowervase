@@ -1,0 +1,21 @@
+<h1>flowervase</h1>
+<h3>一覧ページ</h3>
+<%= link_to "新規投稿へ", new_flower_path %>
+<div class="flowers-container">
+  <% @flowers.each do |t| %>
+    <div class="flower">
+  
+    
+      <%= image_tag t.resize_image_top if t.image_top.attached? %>
+    
+      <%= t.shop %>
+      
+      <%= t.prefecture %>
+      <%= t.station %>
+      <%= t.comment %>
+      <%= link_to "詳細へ", flower_path(t.id) %> 
+      <%= link_to "編集する", edit_flower_path(t.id) %>
+      <%= button_to "削除する", flower_path(t.id), method: :delete %>
+      </div>
+  <% end %>
+</div>
