@@ -1,3 +1,138 @@
 // Place all the styles related to the flowers controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.main-container{
+    background: #fff7eb;
+    text-align: center;
+    color: #661111;
+    padding: 30px auto;
+    line-height: 90px;
+    height: 40px auto;
+    
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-style: normal;
+      
+      
+}
+
+.logo{
+    text-align: left;
+    font-size: larger;
+    line-height: 30px;
+    padding: 10px 20px;
+}
+.container {
+    background: #fff7eb;
+    text-align: center;
+    color: #693737;
+    line-height: 40px;
+  }
+
+
+.topic{
+    color: #786E47;
+    text-align: left;
+    line-height: 30px;
+    font-size: small;
+    padding: 50px;
+}
+
+.loss-container{
+    text-align: left;
+}
+
+.text1{
+    line-height: 20px;
+    padding: 20px;
+}
+.text2{
+    line-height: 20px;
+    padding: 20px;
+}
+
+.text3{
+    line-height: 20px;
+    padding: 20px;
+}
+
+.text4{
+    line-height: 20px;
+    padding: 20px;
+
+}
+.image1{
+    background-image: url("images/basket-flowers.jpg");
+    
+    background-position: center;
+    background-size: 40px;
+}
+.flower{
+    border: 2px solid #ffffff;
+    justify-content: center;
+    margin: 50px 200px;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px#786E47 ;
+
+}
+
+.form{
+    text-align: left;
+    line-height: 20px;
+    padding: 20px;
+
+}
+
+.posts{
+    border: 2px solid #f6eaea;
+    text-align: center;
+    margin: 50px 200px;
+    padding: 50px 20px;
+    background-color: #f6eaea;
+    top: 445px;
+    
+    
+}
+.circle{
+    border: 2px solid #f6eaea;
+    text-align: center;
+    background-color: #f6eaea;
+    width: 800px;
+    height: 400px;
+    border-radius: 50%/ 100% 100% 0 0;
+    margin: 50px 185px;
+    bottom: 5px;
+    
+    
+    
+    
+}
+.posts, .circle{
+    position: absolute;
+}
+
+body{
+    background-color: #fff7eb;
+}
+
+.image-box{
+
+    perspective: 1px;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+}
+
+.image-content{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 400px 0;
+}
+

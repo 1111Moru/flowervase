@@ -1,14 +1,22 @@
-<h1>Flowervase</h1>
-<h3>Tweet詳細</h3>
-<div class="flower">
-<%= image_tag @flower.resize_image_top if @flower.image_top.attached? %>
-  <p><%= @flower.shop %></p>
+<div class=main-container>
+    <div class=logo>
+      <h1>Flower</h1>
+      <h1>vase</h1>
+    </div>
+    <div class=container>
+      <h3>post</h3>
+      <div class="flower">
+      <%= image_tag @flower.resize_image_top if @flower.image_top.attached? %>
+      <p><%= @flower.shop %></p>
   
-  <p><%= @flower.prefecture %></p>
-  <p><%= @flower.station %></p>
-  <p><%= @flower.comment %></p>
-  <p><%= @flower.created_at %></p>
+      <p><%= @flower.prefecture %></p>
+      <p><%= @flower.station %></p>
+      <p><%= @flower.comment %></p>
+      <p><%= @flower.created_at %></p>
+      </div>
 
-  <%= link_to "編集する", edit_flower_path(@flower.id) %>
+  <h5><%= link_to "編集する", edit_flower_path(@flower.id) %></h5>
 </div>
-<%= link_to "Tweet一覧に戻る", flowers_path %>
+<%= link_to "投稿一覧に戻る", flowers_path %>
+
+</div>

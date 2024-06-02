@@ -1,8 +1,15 @@
+<div class=main-container>
 <%= form_for @flower do |f| %>
     <%= f.label :body %>
-    <%= f.text_field :shop,  :size => 140 %>  
-    <%= f.text_field :prefecture,  :size => 140 %> 
-    <%= f.text_field :station,  :size => 140 %> 
-    <%= f.text_field :comment,  :size => 140 %> 
-    <%= f.submit "編集する" %>
-  <% end %>
+      <div class=flower>
+        <div class=text1>
+       <p><%= f.text_field :shop,  :size => 140 %>  </p>
+       <p><%= f.text_field :prefecture,  :size => 140 %> </p>
+       <%= f.text_field :station,  :size => 140 %> 
+       <%= f.text_field :comment,  :size => 140 %> 
+         </div>
+       <%= f.submit "編集する" %>
+      </div>
+    <% end %>
+      
+</div>

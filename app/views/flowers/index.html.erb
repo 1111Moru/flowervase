@@ -1,21 +1,35 @@
-<h1>flowervase</h1>
-<h3>一覧ページ</h3>
-<%= link_to "新規投稿へ", new_flower_path %>
-<div class="flowers-container">
-  <% @flowers.each do |t| %>
-    <div class="flower">
+<div class=main-container>
+
+   <div class=logo>
+    <h1>Flower</h1>
+    <h1>vase</h1>
+   </div>
+   <div class=circle>
+   </div>
+   <div class=posts>
+    <h3>newest post</h3>
+    <%= link_to "新規投稿へ", new_flower_path %>
+       <div class=flower>
+        <div class=text1>
+        <div class="flowers-container">
+        <% @flowers.each do |t| %>
+      
   
     
-      <%= image_tag t.resize_image_top if t.image_top.attached? %>
+        <%= image_tag t.resize_image_top if t.image_top.attached? %>
     
-      <%= t.shop %>
+        <%= t.shop %>
       
-      <%= t.prefecture %>
-      <%= t.station %>
-      <%= t.comment %>
-      <%= link_to "詳細へ", flower_path(t.id) %> 
-      <%= link_to "編集する", edit_flower_path(t.id) %>
-      <%= button_to "削除する", flower_path(t.id), method: :delete %>
+        <%= t.prefecture %>
+        <%= t.station %>
+        <%= t.comment %>
+        <%= link_to "詳細へ", flower_path(t.id) %> 
+        <%= link_to "編集する", edit_flower_path(t.id) %>
+        <%= button_to "削除する", flower_path(t.id), method: :delete %>
+       
+        <% end %>
+        </div>
       </div>
-  <% end %>
-</div>
+     <%= link_to "トップ画面に戻る", flowers_top_path %>
+    </div>
+  </div>

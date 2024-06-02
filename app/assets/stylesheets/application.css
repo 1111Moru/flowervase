@@ -22,7 +22,7 @@
       Meiryo, "ＭＳ Ｐゴシック", sans-serif;
   }
   header {
-    background-color: #f7b1d2c4;
+    background-color: #fff7eb;
     height: 80px;
     font-weight: bold;
     display: flex;
@@ -30,11 +30,11 @@
     align-items: center;
   }
   header a {
-    color: rgb(255, 241, 248); 
+    color: #693737; 
     text-decoration: none; 
   }
   header h1 {
-    color: rgb(233, 255, 248);
+    color: #693737;
     margin-left: 20px;
   }
   .header-list {
@@ -49,9 +49,9 @@
     margin-right: 40px;
   }
   footer {
-    color: white;
+    color: #693737;
     height: 30px;
-    background-color:#f7b1d2c4;
+    background-color:#fff7eb;
     bottom: 0;
     width: 100%;
     display: flex;
