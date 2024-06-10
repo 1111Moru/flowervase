@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-.main-container{
+.main-container-loss{
     background : #fff7eb;
     text-align: center;
     color: #661111;
@@ -10,13 +10,28 @@
     line-height: 90px;
     height: 40px auto;
     
-        font-family: "Merriweather", serif;
-        font-weight: 700;
-        font-style: normal;
+   
+      
+
+        background-image: url("bianka.jpg");
+        background-size: cover;
       
       
 }
 
+
+.main-container{
+    background : #fff7eb;
+    text-align: center;
+    color: #661111;
+    padding: 30px auto;
+    line-height: 90px;
+    height: 40px auto;
+}
+.main-container-top{
+    background-image: url("hana.jpg");
+
+}
 .logo{
     text-align: left;
     font-size: larger;
@@ -70,13 +85,19 @@
 }
 .flower{
     border: 2px solid #ffffff;
+    
     justify-content: center;
-    margin: 50px 200px;
+    margin: 0 auto;
     padding: 50px 20px;
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 0 2px 6px#786E47 ;
+    width: 50vw;
 
+}
+
+.span{
+    color: #52A1A1;
 }
 
 .form{
@@ -89,10 +110,12 @@
 .posts{
     border: 2px solid #f6eaea;
     text-align: center;
-    margin: 50px 200px;
-    padding: 50px 20px;
+    margin: 0 auto;
+    padding: 30px 20px;
     background-color: #f6eaea;
     top: 445px;
+    width: 70vw;
+    justify-content: center;
     
     
 }
@@ -100,24 +123,34 @@
     border: 2px solid #f6eaea;
     text-align: center;
     background-color: #f6eaea;
-    width: 800px;
-    height: 400px;
+    width: 70vw;
+    height: 30vw;
+    padding: 30px 20px;
     border-radius: 50%/ 100% 100% 0 0;
-    margin: 50px 185px;
+    margin-left:15vh;
     bottom: 5px;
-    
-    
-    
-    
+    margin: 0 auto;
+} 
+.img-index{
+    width: 25vw;
+    padding-top: 15vh;
 }
+
 .posts, .circle{
-    position: absolute;
+    position: 10vh;
 }
 
 body{
     background-color: #fff7eb;
+   
 }
-
+.p{
+    font-family: sans-serif;
+        
+    font-weight: 400;
+    font-style: normal;
+    
+}
 .image-box{
 
     perspective: 1px;
@@ -140,6 +173,7 @@ body{
     text-align: center;
     padding: 100px 20px;
     margin: 10px 250px;
+    background-color: #fff7eb;
     
 }
 .texta{

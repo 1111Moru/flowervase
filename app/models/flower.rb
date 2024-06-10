@@ -1,6 +1,8 @@
 class Flower < ApplicationRecord
     belongs_to :user
 
+    mount_uploader :image, ImageUploader
+
     
         # image_topメソッドとimagesメソッドを使用できるようにする。
          has_one_attached :image_top

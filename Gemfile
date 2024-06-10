@@ -69,3 +69,9 @@ gem 'mini_magick'
 
 # Active Storageバリデーション用
 gem 'active_storage_validations'
+
+gem 'cloudinary', '< 2.0.0'
+
+gem 'carrierwave' , '~> 1.3' ,  '>= 1.3.1'
+
+gem 'dotenv-rails'
