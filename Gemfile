@@ -60,15 +60,7 @@ gem 'devise'
 
 gem 'fog-aws'
 
-# S3クラウドストレージを使う用
-gem 'aws-sdk-s3', require: false
 
-# ファイルの加工処理用
-gem 'image_processing'
-gem 'mini_magick'
-
-# Active Storageバリデーション用
-gem 'active_storage_validations'
 
 gem 'cloudinary', '< 2.0.0'
 
