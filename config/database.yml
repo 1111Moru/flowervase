@@ -20,8 +20,6 @@ test:
   <<: *default
   database: db/test.sqlite3
 
-production:
+production: 
   <<: *default
-  adapter: postgresql
-  encoding: unicode
-  pool: 5
+  url: <%= ENV['postgres://flowervase_db_user:QGuLUNXqiCo70BT2UZNFof1QlTpaOS3q@dpg-cp68emo21fec738ddodg-a/flowervase_db'] %>

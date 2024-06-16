@@ -1,8 +1,10 @@
 <div class="main-container-top">
 
+
  <div class="main-container">
 
- <h3>Filling the flowervase with happiness</h3>
+ 
+ <h1>Filling the flowervase with happiness</h1>
  <h5>花をもっと楽しみたい</h5>
 
   
@@ -21,30 +23,37 @@
       <p>捨てられてしまう花を減らしたい</p>
 
       <p>一輪でも多く花を救う”花助け“してみませんか</p>
-      <h3>Flowervase</h3>
+      <h4>Flowervase</h4>
     </div>
    </div>
  
    <div class="topic">
+    <div class="topic-1">
        <h3>ロスフラワーについて</h3>
        <p>廃棄されてしまう花を減らすために</p>
-       <p><%= link_to "詳しく見る", flowers_loss_path %></p>
+       <div class="btn btn03">
+         <a href=""><%= link_to "詳しく見る", flowers_loss_path %></a>
+        </div>
+    </div>
 
+    <div class="topic-1">
        <h3>ロスフラワーは購入できる？</h3>
        <p>"花助け"はだれでもできます！
        <p>お花のSDGｓに貢献できるロスフラワーの購入サイトの紹介</p>
-       <p><%= link_to "詳しく見る", flowers_shop_path %></p>
+       <a><%= link_to "詳しく見る", flowers_shop_path %></a>
+    </div>
 
-
+    <div class="topic-1">
        <h3>あなたの花屋</h3>
        <p>my favorite flower shops</p>
        <p><%= link_to "投稿を見る", flowers_path %></p>
+    </div>
 
-
+    <div class="topic-1">
        <h3>花束診断</h3>
        <p>あなたにぴったりの花束を</p>
        <p><%= link_to "診断はこちらから", bouquets_path %></p>
-
+    </div>
     </div>
 </div>
 

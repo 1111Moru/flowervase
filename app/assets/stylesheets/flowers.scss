@@ -6,9 +6,10 @@
     background : #fff7eb;
     text-align: center;
     color: #661111;
-    padding: 30px auto;
+    padding: 25vh auto;
     line-height: 90px;
-    height: 40px auto;
+    height: 40vh auto;
+    
     
    
       
@@ -22,37 +23,91 @@
 
 .main-container{
     background : #fff7eb;
+    background-color: rgba(255,255,255, 0.01);
     text-align: center;
     color: #661111;
-    padding: 30px auto;
-    line-height: 90px;
+    padding: 50vh auto;
+    padding-top: 40vh;
+   
     height: 40px auto;
+    font-size: x-large;
+    font-weight: 900;
 }
 .main-container-top{
-    background-image: url("hana.jpg");
+    background-image: url("top.jpg");
+        background-size: cover;
+        width: 100vw;
+        height: 300vh;
+      
 
+}
+.btn03 a {
+	background-color: #ceb849;
+	border: 1px solid transparent;
+}
+
+.btn03 a::before {
+	content: '';
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	width: 30%;
+	height: 100%;
+    text-align: center;
+	background-color: transparent;
+	border: 1px solid #333;
+}
+
+.btn03 a::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: -35px;
+	transform: translateY(-50%);
+	width: 70px;
+	height: 1px;
+	background-color: #333;
+}
+
+.btn03 a:hover {
+	background-color: #d7ca88;
 }
 .logo{
     text-align: left;
     font-size: larger;
     line-height: 30px;
     padding: 10px 20px;
+    color: #ffffff;
 }
 .container {
     background: #fff7eb;
     text-align: center;
     color: #693737;
     line-height: 40px;
+    background-color: rgba(255,255,255, 0.01);
+    font-size: 4vh ;
+    line-height: 10vh;
   }
 
-
+h3{
+    line-height: 15vh;
+    text-shadow: 0 2px 6px #827575;
+}
 .topic{
     color: #786E47;
-    text-align: left;
+    text-align: center;
     line-height: 30px;
-    font-size: small;
-    padding: 50px;
+    font-size: large;
+    padding: 40px;
+    
 }
+.img-top-topic{
+    
+    padding-left: 30vw;
+    width: 7vw;
+    height: 15vh;
+}
+
 
 .loss-container{
     text-align: left;
@@ -60,7 +115,9 @@
 
 .text1{
     line-height: 20px;
-    padding: 20px;
+   
+    padding-bottom: 30vh;
+
 }
 .text2{
     line-height: 20px;
@@ -191,3 +248,16 @@ body{
     padding: 20px;
     text-align: center;
 }    
+
+.center{
+    padding: 25vh;
+}
+
+.topic-1{
+    padding: 10vh;
+}
+
+a{
+    text-decoration-line: none!important;
+}
+
