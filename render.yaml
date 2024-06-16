@@ -1,6 +1,6 @@
 databases:
-  - name: flowervase_DB
-    databaseName: flowervase_db
+  - name: flowervase1_DB
+    databaseName: flowervase1_db
     user: flowervase
     region: singapore
 
