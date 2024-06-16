@@ -5,9 +5,9 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: sqlite3
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  timeout: 5000
+ adapter: sqlite3
+ pool: 5
+ timeout: 5000
 
 development:
   <<: *default
@@ -22,4 +22,4 @@ test:
 
 production: 
   <<: *default
-  url: <%= ENV['postgres://flowervase_db_user:QGuLUNXqiCo70BT2UZNFof1QlTpaOS3q@dpg-cp68emo21fec738ddodg-a/flowervase_db'] %>
+  url: <%= ENV['postgres://flowervase1_db_user:990QEoue7Y7BpYydkhkg5bASSH0EY7ZM@dpg-cpndjm6ehbks7385hna0-a/flowervase1_db'] %>
